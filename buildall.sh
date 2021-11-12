@@ -24,6 +24,6 @@ make
 
 # configure and build qemu
 cd ../qemu
-./configure --target-list=riscv32-softmmu --prefix=$INSTALL_DIR
+./configure --target-list=aarch64-softmmu,arm-softmmu,aarch64-linux-user,arm-linux-user,riscv32-softmmu,riscv64-softmmu,riscv64-linux-user,riscv32-linux-user --prefix=$INSTALL_DIR
 make
 make install
