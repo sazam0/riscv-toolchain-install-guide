@@ -38,7 +38,7 @@ If you are using bash and installed the tools in the default location then
 adding the following to the end of your .bashrc file will suffice: 
 
 ```bash
-export PATH=${HOME}/projects/riscv/install/rv32i/bin:${PATH}
+export PATH=${HOME}/opt/rv32i_qemu/bin:${PATH}
 ```
 
 ## Give qemu a basic sanity check
