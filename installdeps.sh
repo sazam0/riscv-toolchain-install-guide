@@ -18,3 +18,9 @@ sudo apt install ninja-build libglib2.0-dev libpixman-1-dev
 # This is a useful tool for viewing the configuration of the QEMU-emulated machines
 sudo apt install device-tree-compiler
 
+
+# install arm64 (gcc)
+sudo apt install gcc-aarch64-linux-gnu binutils-aarch64-linux-gnu binutils-aarch64-linux-gnu-dbg
+
+# install riscv64 (gcc)
+sudo apt install gcc-riscv64-linux-gnu binutils-riscv64-linux-gnu binutils-riscv64-linux-gnu-dbg
