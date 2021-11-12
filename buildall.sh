@@ -4,7 +4,7 @@
 # Default = ../install/rv32i
 
 if [ "$1" = "" ]; then
-	INSTALL_DIR=$(cd ..; pwd)/install/rv32i
+	INSTALL_DIR=$HOME/opt/rv32i_qemu
 else
 	INSTALL_DIR=$1
 fi
